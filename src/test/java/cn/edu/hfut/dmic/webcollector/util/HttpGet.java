@@ -43,6 +43,7 @@ public class HttpGet {
   //  private static int PORT = 80;
 
     static {
+        //test
        // HttpHost target = new HttpHost(IP, PORT);
         connectionManager = new PoolingHttpClientConnectionManager();
         connectionManager.setMaxTotal(8000);
